@@ -1,0 +1,320 @@
+{
+  "app": {
+    "name": "Smart Banking Assistant",
+    "welcome": "Welcome to Smart Banking Assistant"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "documents": "Documents",
+    "assistant": "Assistant",
+    "logout": "Logout",
+    "settings": "Settings"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Create Account",
+    "welcomeBack": "Welcome Back",
+    "loginSubtitle": "Login to Smart Banking Assistant",
+    "fullName": "Full Name",
+    "username": "Username / Email",
+    "email": "Email",
+    "mobile": "Mobile Number",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "enterEmail": "Enter Email",
+    "enterPassword": "Enter Password",
+    "chooseUsername": "Choose Username",
+    "enterFullName": "Enter Full Name",
+    "enterMobile": "Enter Mobile Number",
+    "createPassword": "Create Password",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "createAccount": "Create Account",
+    "loggingIn": "Logging in...",
+    "creatingAccount": "Creating Account...",
+    "terms": "I agree to the Terms & Conditions",
+    "invalidCredentials": "Invalid email or password.",
+    "fillAllFields": "Please fill all fields.",
+    "passwordMismatch": "Passwords do not match.",
+    "accountCreated": "Account created successfully!",
+    "signupFailed": "Signup failed.",
+    "loginLink": "Login"
+  },
+  "language": {
+    "title": "Preferred Language",
+    "change": "Change Language",
+    "select": "Select Language",
+    "save": "Save Language",
+    "saved": "Language updated successfully.",
+    "english": "English",
+    "kannada": "Kannada",
+    "hindi": "Hindi",
+    "tamil": "Tamil",
+    "telugu": "Telugu",
+    "malayalam": "Malayalam",
+    "marathi": "Marathi"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome Back",
+    "description": "Verify your bank branch to receive personalized banking assistance and guidance in your preferred language.",
+    "quickServices": "Quick Services",
+    "requiredDocuments": "Required Documents",
+    "documentsDescription": "Check the documents needed for various banking services.",
+    "scanQR": "Scan QR Code",
+    "secure": "Secure",
+    "smart": "Smart",
+    "multilingual": "Multilingual",
+    "secureBranch": "Secure branch verification",
+    "personalized": "Personalized banking guidance",
+    "multilingualAssistance": "Multilingual assistance",
+    "verifyTitle": "Verify Your Bank Branch",
+    "verifyDescription": "Verify your bank branch before accessing banking services. This ensures secure branch authentication and enables personalized multilingual banking assistance.",
+    "cameraActive": "Camera Active"
+  },
+  "qr": {
+    "title": "Scan Branch QR Code",
+    "description": "Verify your bank branch by scanning the QR code displayed inside the branch.",
+    "back": "Back",
+    "instruction": "Align the Branch QR Code inside the frame.",
+    "hold": "Hold your phone steady until the QR code is detected automatically.",
+    "verifying": "Verifying Branch...",
+    "verifyWait": "Please wait while we verify the QR code.",
+    "scannerTips": "Scanner Tips",
+    "keepInside": "Keep the QR code inside the frame",
+    "steady": "Hold your phone steady",
+    "lighting": "Ensure proper lighting",
+    "scanning": "Scanning...",
+    "verified": "Branch Verified",
+    "scanAgain": "Scan Again",
+    "continue": "Continue",
+    "connected": "You are now connected to this branch."
+  },
+  "assistant": {
+    "title": "Smart Banking Assistant",
+    "greeting": "Hello! How can I help you?",
+    "tapToSpeak": "Tap to speak",
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "repeat": "Repeat",
+    "stop": "Stop",
+    "help": "Help",
+    "you": "You",
+    "assistant": "Assistant"
+  },
+  "profile": {
+    "title": "Profile",
+    "customer": "Customer",
+    "back": "Back",
+    "username": "Username",
+    "email": "Email",
+    "mobile": "Mobile Number",
+    "preferredLanguage": "Preferred Language",
+    "branch": "Branch",
+    "accountType": "Account Type",
+    "notVerified": "Not Verified",
+    "edit": "Edit Profile",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "updated": "Profile updated successfully.",
+    "editDetails": "Edit Profile Details",
+    "name": "Full Name"
+  },
+  "menu": {
+    "myProfile": "My Profile",
+    "changeLanguage": "Change Language",
+    "logout": "Logout",
+    "user": "User",
+    "customer": "Customer",
+    "logoutTitle": "Logout",
+    "logoutQuestion": "Are you sure you want to logout from your account?",
+    "cancel": "Cancel"
+  },
+  "documents": {
+    "title": "Required Documents",
+    "description": "Find the required documents for any banking service before visiting the branch.",
+    "search": "Search banking services",
+    "notFound": "No banking service found.",
+    "required": "Required Documents",
+    "important": "Important Notes",
+    "original": "Carry original documents.",
+    "copies": "Bring self-attested photocopies.",
+    "valid": "Ensure all documents are valid.",
+    "matching": "Name should match across all documents",
+    "serviceNotFound": "Service Not Found",
+    "back": "Back"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "close": "Close",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Something went wrong.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "services": {
+    "1": {
+      "name": "Savings Account",
+      "description": "Open a new savings account",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Government-issued identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "photo": [
+          "Passport Size Photograph",
+          "Recent colour photograph"
+        ],
+        "address": [
+          "Address Proof",
+          "Electricity Bill / Passport / Driving Licence"
+        ]
+      }
+    },
+    "2": {
+      "name": "Current Account",
+      "description": "For businesses and organizations",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "business": [
+          "Business Registration",
+          "GST or Registration Certificate"
+        ],
+        "address": [
+          "Address Proof",
+          "Business address proof"
+        ]
+      }
+    },
+    "3": {
+      "name": "Personal Loan",
+      "description": "Apply for a personal loan",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "salary": [
+          "Salary Slip",
+          "Last 3 months"
+        ],
+        "statement": [
+          "Bank Statement",
+          "Last 6 months"
+        ]
+      }
+    },
+    "4": {
+      "name": "Home Loan",
+      "description": "Documents for home loan",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "income": [
+          "Income Proof",
+          "Salary slip / ITR"
+        ],
+        "property": [
+          "Property Documents",
+          "Ownership papers"
+        ]
+      }
+    },
+    "5": {
+      "name": "KYC Update",
+      "description": "Update your KYC details",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "address": [
+          "Address Proof",
+          "Latest address proof"
+        ]
+      }
+    }
+  },
+  "marketing": {
+    "voiceGuided": "Voice Guided Banking",
+    "regional": "Regional Language Support",
+    "qr": "QR Based Branch Detection",
+    "workflow": "Workflow Guidance",
+    "forms": "Banking Form Assistance",
+    "subtitle": "Context-Aware Multilingual Banking Voice Assistant for seamless customer guidance inside bank branches.",
+    "signupIntro": "Create your account to access a secure and intelligent banking experience. Scan branch QR codes, check required documents, choose your preferred language, and interact with the banking voice assistant.",
+    "secureAuth": "Secure Authentication",
+    "multiLanguage": "Multi-Language Support",
+    "aiVoice": "AI Voice Guided Banking",
+    "documentVerification": "Dynamic Document Verification"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "branchManagement": "Branch Management",
+    "totalBranches": "Total Branches",
+    "activeBranches": "Active Branches",
+    "qrCodes": "QR Codes Generated",
+    "manageBranches": "Manage Branches",
+    "manageDescription": "Add, update, activate or deactivate bank branch information.",
+    "addBranch": "Add Branch",
+    "editBranch": "Edit Branch",
+    "generateQr": "Generate QR",
+    "toggleBranch": "Change Status",
+    "branchCode": "Branch Code",
+    "branchName": "Branch Name",
+    "area": "Area",
+    "city": "City",
+    "state": "State",
+    "address": "Address",
+    "status": "Status",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive",
+    "noBranches": "No branches have been added yet.",
+    "qrOnlyContext": "This QR contains only the branch ID for context awareness.",
+    "downloadQr": "Download QR",
+    "openQr": "Open QR"
+  },
+  "assistance": {
+    "choose": "How would you like assistance?",
+    "subtitle": "Choose the option that is comfortable for you.",
+    "voice": "Voice Assistance",
+    "voiceDescription": "Speak to the banking assistant and receive guidance using voice.",
+    "written": "Step-by-Step Guidance",
+    "writtenDescription": "Choose a banking service and follow clear written instructions."
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "app": {
+    "name": "స్మార్ట్ బ్యాంకింగ్ అసిస్టెంట్",
+    "welcome": "స్మార్ట్ బ్యాంకింగ్ అసిస్టెంట్‌కు స్వాగతం"
+  },
+  "navigation": {
+    "dashboard": "డాష్‌బోర్డ్",
+    "profile": "ప్రొఫైల్",
+    "documents": "పత్రాలు",
+    "assistant": "సహాయకుడు",
+    "logout": "లాగ్ అవుట్",
+    "settings": "సెట్టింగ్‌లు"
+  },
+  "auth": {
+    "login": "లాగిన్",
+    "signup": "ఖాతా సృష్టించండి",
+    "welcomeBack": "తిరిగి స్వాగతం",
+    "loginSubtitle": "స్మార్ట్ బ్యాంకింగ్ అసిస్టెంట్‌లో లాగిన్ అవ్వండి",
+    "fullName": "పూర్తి పేరు",
+    "username": "వినియోగదారు పేరు / ఇమెయిల్",
+    "email": "ఇమెయిల్",
+    "mobile": "మొబైల్ నంబర్",
+    "password": "పాస్‌వర్డ్",
+    "confirmPassword": "పాస్‌వర్డ్ నిర్ధారించండి",
+    "enterEmail": "ఇమెయిల్ నమోదు చేయండి",
+    "enterPassword": "పాస్‌వర్డ్ నమోదు చేయండి",
+    "chooseUsername": "Choose Username",
+    "enterFullName": "Enter Full Name",
+    "enterMobile": "Enter Mobile Number",
+    "createPassword": "Create Password",
+    "rememberMe": "నన్ను గుర్తుంచుకోండి",
+    "forgotPassword": "పాస్‌వర్డ్ మర్చిపోయారా?",
+    "dontHaveAccount": "ఖాతా లేదా?",
+    "alreadyHaveAccount": "ఇప్పటికే ఖాతా ఉందా?",
+    "createAccount": "ఖాతా సృష్టించండి",
+    "loggingIn": "లాగిన్ అవుతోంది...",
+    "creatingAccount": "ఖాతా సృష్టిస్తోంది...",
+    "terms": "నిబంధనలు మరియు షరతులకు అంగీకరిస్తున్నాను",
+    "invalidCredentials": "ఇమెయిల్ లేదా పాస్‌వర్డ్ తప్పు.",
+    "fillAllFields": "దయచేసి అన్ని ఫీల్డ్‌లను పూరించండి.",
+    "passwordMismatch": "పాస్‌వర్డ్‌లు సరిపోలలేదు.",
+    "accountCreated": "ఖాతా విజయవంతంగా సృష్టించబడింది!",
+    "signupFailed": "సైన్ అప్ విఫలమైంది.",
+    "loginLink": "లాగిన్"
+  },
+  "language": {
+    "title": "ఇష్టమైన భాష",
+    "change": "భాష మార్చండి",
+    "select": "భాషను ఎంచుకోండి",
+    "save": "భాషను సేవ్ చేయండి",
+    "saved": "భాష విజయవంతంగా నవీకరించబడింది.",
+    "english": "ఇంగ్లీష్",
+    "kannada": "కన్నడ",
+    "hindi": "హిందీ",
+    "tamil": "తమిళం",
+    "telugu": "తెలుగు",
+    "malayalam": "మలయాళం",
+    "marathi": "మరాఠీ"
+  },
+  "dashboard": {
+    "title": "డాష్‌బోర్డ్",
+    "welcome": "తిరిగి స్వాగతం",
+    "description": "మీ ఇష్టమైన భాషలో వ్యక్తిగత బ్యాంకింగ్ సహాయం పొందడానికి మీ బ్యాంక్ శాఖను ధృవీకరించండి.",
+    "quickServices": "త్వరిత సేవలు",
+    "requiredDocuments": "అవసరమైన పత్రాలు",
+    "documentsDescription": "వివిధ బ్యాంకింగ్ సేవలకు అవసరమైన పత్రాలను చూడండి.",
+    "scanQR": "QR కోడ్ స్కాన్ చేయండి",
+    "secure": "Secure",
+    "smart": "Smart",
+    "multilingual": "Multilingual",
+    "secureBranch": "Secure branch verification",
+    "personalized": "Personalized banking guidance",
+    "multilingualAssistance": "Multilingual assistance",
+    "verifyTitle": "మీ బ్యాంక్ శాఖను ధృవీకరించండి",
+    "verifyDescription": "బ్యాంకింగ్ సేవలను ఉపయోగించే ముందు మీ శాఖను ధృవీకరించండి.",
+    "cameraActive": "కెమెరా సక్రియంగా ఉంది"
+  },
+  "qr": {
+    "title": "Scan Branch QR Code",
+    "description": "Verify your bank branch by scanning the QR code displayed inside the branch.",
+    "back": "Back",
+    "instruction": "Align the Branch QR Code inside the frame.",
+    "hold": "Hold your phone steady until the QR code is detected automatically.",
+    "verifying": "Verifying Branch...",
+    "verifyWait": "Please wait while we verify the QR code.",
+    "scannerTips": "Scanner Tips",
+    "keepInside": "Keep the QR code inside the frame",
+    "steady": "Hold your phone steady",
+    "lighting": "Ensure proper lighting",
+    "scanning": "Scanning...",
+    "verified": "Branch Verified",
+    "scanAgain": "Scan Again",
+    "continue": "Continue",
+    "connected": "మీరు ఇప్పుడు ఈ శాఖకు కనెక్ట్ అయ్యారు."
+  },
+  "assistant": {
+    "title": "Smart Banking Assistant",
+    "greeting": "Hello! How can I help you?",
+    "tapToSpeak": "Tap to speak",
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "repeat": "Repeat",
+    "stop": "Stop",
+    "help": "Help",
+    "you": "You",
+    "assistant": "Assistant"
+  },
+  "profile": {
+    "title": "Profile",
+    "customer": "Customer",
+    "back": "Back",
+    "username": "Username",
+    "email": "Email",
+    "mobile": "Mobile Number",
+    "preferredLanguage": "Preferred Language",
+    "branch": "Branch",
+    "accountType": "Account Type",
+    "notVerified": "Not Verified",
+    "edit": "Edit Profile",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "updated": "Profile updated successfully.",
+    "editDetails": "Edit Profile Details",
+    "name": "Full Name"
+  },
+  "menu": {
+    "myProfile": "My Profile",
+    "changeLanguage": "Change Language",
+    "logout": "Logout",
+    "user": "User",
+    "customer": "Customer",
+    "logoutTitle": "Logout",
+    "logoutQuestion": "Are you sure you want to logout from your account?",
+    "cancel": "Cancel"
+  },
+  "documents": {
+    "title": "Required Documents",
+    "description": "Find the required documents for any banking service before visiting the branch.",
+    "search": "Search banking services",
+    "notFound": "No banking service found.",
+    "required": "Required Documents",
+    "important": "Important Notes",
+    "original": "Carry original documents.",
+    "copies": "Bring self-attested photocopies.",
+    "valid": "Ensure all documents are valid.",
+    "matching": "Name should match across all documents",
+    "serviceNotFound": "Service Not Found",
+    "back": "Back"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "close": "Close",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Something went wrong.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "services": {
+    "1": {
+      "name": "Savings Account",
+      "description": "Open a new savings account",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Government-issued identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "photo": [
+          "Passport Size Photograph",
+          "Recent colour photograph"
+        ],
+        "address": [
+          "Address Proof",
+          "Electricity Bill / Passport / Driving Licence"
+        ]
+      }
+    },
+    "2": {
+      "name": "Current Account",
+      "description": "For businesses and organizations",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "business": [
+          "Business Registration",
+          "GST or Registration Certificate"
+        ],
+        "address": [
+          "Address Proof",
+          "Business address proof"
+        ]
+      }
+    },
+    "3": {
+      "name": "Personal Loan",
+      "description": "Apply for a personal loan",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "salary": [
+          "Salary Slip",
+          "Last 3 months"
+        ],
+        "statement": [
+          "Bank Statement",
+          "Last 6 months"
+        ]
+      }
+    },
+    "4": {
+      "name": "Home Loan",
+      "description": "Documents for home loan",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "income": [
+          "Income Proof",
+          "Salary slip / ITR"
+        ],
+        "property": [
+          "Property Documents",
+          "Ownership papers"
+        ]
+      }
+    },
+    "5": {
+      "name": "KYC Update",
+      "description": "Update your KYC details",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "address": [
+          "Address Proof",
+          "Latest address proof"
+        ]
+      }
+    }
+  },
+  "marketing": {
+    "voiceGuided": "Voice Guided Banking",
+    "regional": "Regional Language Support",
+    "qr": "QR Based Branch Detection",
+    "workflow": "Workflow Guidance",
+    "forms": "Banking Form Assistance",
+    "subtitle": "Context-Aware Multilingual Banking Voice Assistant for seamless customer guidance inside bank branches.",
+    "signupIntro": "Create your account to access a secure and intelligent banking experience. Scan branch QR codes, check required documents, choose your preferred language, and interact with the banking voice assistant.",
+    "secureAuth": "Secure Authentication",
+    "multiLanguage": "Multi-Language Support",
+    "aiVoice": "AI Voice Guided Banking",
+    "documentVerification": "Dynamic Document Verification"
+  },
+  "admin": {
+    "title": "అడ్మిన్ డాష్‌బోర్డ్",
+    "branchManagement": "శాఖ నిర్వహణ",
+    "totalBranches": "మొత్తం శాఖలు",
+    "activeBranches": "క్రియాశీల శాఖలు",
+    "qrCodes": "రూపొందించిన QRలు",
+    "manageBranches": "శాఖలను నిర్వహించండి",
+    "manageDescription": "బ్యాంక్ శాఖ సమాచారాన్ని జోడించండి, నవీకరించండి లేదా యాక్టివ్/ఇనాక్టివ్ చేయండి.",
+    "addBranch": "శాఖను జోడించండి",
+    "editBranch": "శాఖను సవరించండి",
+    "generateQr": "QR రూపొందించండి",
+    "toggleBranch": "స్థితిని మార్చండి",
+    "branchCode": "శాఖ కోడ్",
+    "branchName": "శాఖ పేరు",
+    "area": "ప్రాంతం",
+    "city": "నగరం",
+    "state": "రాష్ట్రం",
+    "address": "చిరునామా",
+    "status": "స్థితి",
+    "actions": "చర్యలు",
+    "active": "యాక్టివ్",
+    "inactive": "ఇనాక్టివ్",
+    "noBranches": "ఇంకా శాఖలు జోడించలేదు.",
+    "qrOnlyContext": "ఈ QRలో సందర్భం కోసం శాఖ ID మాత్రమే ఉంది.",
+    "downloadQr": "QR డౌన్‌లోడ్",
+    "openQr": "QR తెరవండి"
+  },
+  "assistance": {
+    "choose": "మీకు ఎలా సహాయం కావాలి?",
+    "subtitle": "మీకు సౌకర్యమైన ఎంపికను ఎంచుకోండి.",
+    "voice": "వాయిస్ సహాయం",
+    "voiceDescription": "బ్యాంకింగ్ సహాయకుడితో మాట్లాడి వాయిస్ ద్వారా మార్గదర్శనం పొందండి.",
+    "written": "దశలవారీ మార్గదర్శకం",
+    "writtenDescription": "బ్యాంకింగ్ సేవను ఎంచుకుని స్పష్టమైన వ్రాత సూచనలను అనుసరించండి."
+  }
+}

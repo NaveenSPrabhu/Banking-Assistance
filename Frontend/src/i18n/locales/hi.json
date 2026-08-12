@@ -1,0 +1,320 @@
+{
+  "app": {
+    "name": "स्मार्ट बैंकिंग सहायक",
+    "welcome": "स्मार्ट बैंकिंग सहायक में आपका स्वागत है"
+  },
+  "navigation": {
+    "dashboard": "डैशबोर्ड",
+    "profile": "प्रोफ़ाइल",
+    "documents": "दस्तावेज़",
+    "assistant": "सहायक",
+    "logout": "लॉग आउट",
+    "settings": "सेटिंग्स"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "signup": "खाता बनाएँ",
+    "welcomeBack": "वापसी पर स्वागत है",
+    "loginSubtitle": "स्मार्ट बैंकिंग सहायक में लॉगिन करें",
+    "fullName": "पूरा नाम",
+    "username": "उपयोगकर्ता नाम / ईमेल",
+    "email": "ईमेल",
+    "mobile": "मोबाइल नंबर",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "enterEmail": "ईमेल दर्ज करें",
+    "enterPassword": "पासवर्ड दर्ज करें",
+    "chooseUsername": "Choose Username",
+    "enterFullName": "Enter Full Name",
+    "enterMobile": "Enter Mobile Number",
+    "createPassword": "Create Password",
+    "rememberMe": "मुझे याद रखें",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "dontHaveAccount": "खाता नहीं है?",
+    "alreadyHaveAccount": "पहले से खाता है?",
+    "createAccount": "खाता बनाएँ",
+    "loggingIn": "लॉगिन हो रहा है...",
+    "creatingAccount": "खाता बनाया जा रहा है...",
+    "terms": "मैं नियम और शर्तों से सहमत हूँ",
+    "invalidCredentials": "ईमेल या पासवर्ड गलत है।",
+    "fillAllFields": "कृपया सभी फ़ील्ड भरें।",
+    "passwordMismatch": "पासवर्ड मेल नहीं खाते।",
+    "accountCreated": "खाता सफलतापूर्वक बनाया गया!",
+    "signupFailed": "साइन अप विफल रहा।",
+    "loginLink": "लॉगिन"
+  },
+  "language": {
+    "title": "पसंदीदा भाषा",
+    "change": "भाषा बदलें",
+    "select": "भाषा चुनें",
+    "save": "भाषा सहेजें",
+    "saved": "भाषा सफलतापूर्वक अपडेट हुई।",
+    "english": "अंग्रेज़ी",
+    "kannada": "कन्नड़",
+    "hindi": "हिन्दी",
+    "tamil": "तमिल",
+    "telugu": "तेलुगु",
+    "malayalam": "मलयालम",
+    "marathi": "मराठी"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "welcome": "वापसी पर स्वागत है",
+    "description": "अपनी पसंदीदा भाषा में व्यक्तिगत बैंकिंग सहायता पाने के लिए अपनी बैंक शाखा सत्यापित करें।",
+    "quickServices": "त्वरित सेवाएँ",
+    "requiredDocuments": "आवश्यक दस्तावेज़",
+    "documentsDescription": "विभिन्न बैंकिंग सेवाओं के लिए आवश्यक दस्तावेज़ देखें।",
+    "scanQR": "QR कोड स्कैन करें",
+    "secure": "Secure",
+    "smart": "Smart",
+    "multilingual": "Multilingual",
+    "secureBranch": "Secure branch verification",
+    "personalized": "Personalized banking guidance",
+    "multilingualAssistance": "Multilingual assistance",
+    "verifyTitle": "अपनी बैंक शाखा सत्यापित करें",
+    "verifyDescription": "बैंकिंग सेवाओं का उपयोग करने से पहले अपनी बैंक शाखा सत्यापित करें।",
+    "cameraActive": "कैमरा सक्रिय है"
+  },
+  "qr": {
+    "title": "Scan Branch QR Code",
+    "description": "Verify your bank branch by scanning the QR code displayed inside the branch.",
+    "back": "Back",
+    "instruction": "Align the Branch QR Code inside the frame.",
+    "hold": "Hold your phone steady until the QR code is detected automatically.",
+    "verifying": "Verifying Branch...",
+    "verifyWait": "Please wait while we verify the QR code.",
+    "scannerTips": "Scanner Tips",
+    "keepInside": "Keep the QR code inside the frame",
+    "steady": "Hold your phone steady",
+    "lighting": "Ensure proper lighting",
+    "scanning": "Scanning...",
+    "verified": "Branch Verified",
+    "scanAgain": "Scan Again",
+    "continue": "Continue",
+    "connected": "आप अब इस शाखा से जुड़ गए हैं।"
+  },
+  "assistant": {
+    "title": "Smart Banking Assistant",
+    "greeting": "Hello! How can I help you?",
+    "tapToSpeak": "Tap to speak",
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "repeat": "Repeat",
+    "stop": "Stop",
+    "help": "Help",
+    "you": "You",
+    "assistant": "Assistant"
+  },
+  "profile": {
+    "title": "Profile",
+    "customer": "Customer",
+    "back": "Back",
+    "username": "Username",
+    "email": "Email",
+    "mobile": "Mobile Number",
+    "preferredLanguage": "Preferred Language",
+    "branch": "Branch",
+    "accountType": "Account Type",
+    "notVerified": "Not Verified",
+    "edit": "Edit Profile",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "updated": "Profile updated successfully.",
+    "editDetails": "Edit Profile Details",
+    "name": "Full Name"
+  },
+  "menu": {
+    "myProfile": "My Profile",
+    "changeLanguage": "Change Language",
+    "logout": "Logout",
+    "user": "User",
+    "customer": "Customer",
+    "logoutTitle": "Logout",
+    "logoutQuestion": "Are you sure you want to logout from your account?",
+    "cancel": "Cancel"
+  },
+  "documents": {
+    "title": "Required Documents",
+    "description": "Find the required documents for any banking service before visiting the branch.",
+    "search": "Search banking services",
+    "notFound": "No banking service found.",
+    "required": "Required Documents",
+    "important": "Important Notes",
+    "original": "Carry original documents.",
+    "copies": "Bring self-attested photocopies.",
+    "valid": "Ensure all documents are valid.",
+    "matching": "Name should match across all documents",
+    "serviceNotFound": "Service Not Found",
+    "back": "Back"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "close": "Close",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Something went wrong.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "services": {
+    "1": {
+      "name": "Savings Account",
+      "description": "Open a new savings account",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Government-issued identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "photo": [
+          "Passport Size Photograph",
+          "Recent colour photograph"
+        ],
+        "address": [
+          "Address Proof",
+          "Electricity Bill / Passport / Driving Licence"
+        ]
+      }
+    },
+    "2": {
+      "name": "Current Account",
+      "description": "For businesses and organizations",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "business": [
+          "Business Registration",
+          "GST or Registration Certificate"
+        ],
+        "address": [
+          "Address Proof",
+          "Business address proof"
+        ]
+      }
+    },
+    "3": {
+      "name": "Personal Loan",
+      "description": "Apply for a personal loan",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "salary": [
+          "Salary Slip",
+          "Last 3 months"
+        ],
+        "statement": [
+          "Bank Statement",
+          "Last 6 months"
+        ]
+      }
+    },
+    "4": {
+      "name": "Home Loan",
+      "description": "Documents for home loan",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "income": [
+          "Income Proof",
+          "Salary slip / ITR"
+        ],
+        "property": [
+          "Property Documents",
+          "Ownership papers"
+        ]
+      }
+    },
+    "5": {
+      "name": "KYC Update",
+      "description": "Update your KYC details",
+      "docs": {
+        "aadhaar": [
+          "Aadhaar Card",
+          "Identity proof"
+        ],
+        "pan": [
+          "PAN Card",
+          "Permanent Account Number"
+        ],
+        "address": [
+          "Address Proof",
+          "Latest address proof"
+        ]
+      }
+    }
+  },
+  "marketing": {
+    "voiceGuided": "Voice Guided Banking",
+    "regional": "Regional Language Support",
+    "qr": "QR Based Branch Detection",
+    "workflow": "Workflow Guidance",
+    "forms": "Banking Form Assistance",
+    "subtitle": "Context-Aware Multilingual Banking Voice Assistant for seamless customer guidance inside bank branches.",
+    "signupIntro": "Create your account to access a secure and intelligent banking experience. Scan branch QR codes, check required documents, choose your preferred language, and interact with the banking voice assistant.",
+    "secureAuth": "Secure Authentication",
+    "multiLanguage": "Multi-Language Support",
+    "aiVoice": "AI Voice Guided Banking",
+    "documentVerification": "Dynamic Document Verification"
+  },
+  "admin": {
+    "title": "एडमिन डैशबोर्ड",
+    "branchManagement": "शाखा प्रबंधन",
+    "totalBranches": "कुल शाखाएँ",
+    "activeBranches": "सक्रिय शाखाएँ",
+    "qrCodes": "जनरेट किए गए QR",
+    "manageBranches": "शाखाएँ प्रबंधित करें",
+    "manageDescription": "बैंक शाखा की जानकारी जोड़ें, अपडेट करें या सक्रिय/निष्क्रिय करें।",
+    "addBranch": "शाखा जोड़ें",
+    "editBranch": "शाखा संपादित करें",
+    "generateQr": "QR बनाएं",
+    "toggleBranch": "स्थिति बदलें",
+    "branchCode": "शाखा कोड",
+    "branchName": "शाखा नाम",
+    "area": "क्षेत्र",
+    "city": "शहर",
+    "state": "राज्य",
+    "address": "पता",
+    "status": "स्थिति",
+    "actions": "कार्रवाई",
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "noBranches": "अभी कोई शाखा नहीं जोड़ी गई है।",
+    "qrOnlyContext": "इस QR में केवल संदर्भ के लिए शाखा ID है।",
+    "downloadQr": "QR डाउनलोड करें",
+    "openQr": "QR खोलें"
+  },
+  "assistance": {
+    "choose": "आपको किस तरह की सहायता चाहिए?",
+    "subtitle": "अपने लिए सुविधाजनक विकल्प चुनें।",
+    "voice": "वॉइस सहायता",
+    "voiceDescription": "बैंकिंग सहायक से बोलकर मार्गदर्शन प्राप्त करें।",
+    "written": "चरण-दर-चरण मार्गदर्शन",
+    "writtenDescription": "बैंकिंग सेवा चुनें और स्पष्ट लिखित निर्देशों का पालन करें।"
+  }
+}
