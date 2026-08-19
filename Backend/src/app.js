@@ -8,37 +8,68 @@ const app = express();
 
 /*
 |--------------------------------------------------------------------------
-| Global Middleware
+| CORS Configuration
 |--------------------------------------------------------------------------
 */
+
+const allowedOrigins = [
+  "https://banking-assistance.vercel.app",
+];
 
 app.use(
   cors({
     origin(origin, callback) {
-      // Allow requests without an Origin header (for example curl/server checks).
-      if (!origin) return callback(null, true);
+      // Allow requests without an Origin header
+      // such as server-side checks or curl.
+      if (!origin) {
+        return callback(null, true);
+      }
+
+      // Allow the deployed Vercel frontend.
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
 
       try {
         const url = new URL(origin);
-        const isAllowedHost =
+
+        const isLocalHost =
           url.hostname === "localhost" ||
-          url.hostname === "127.0.0.1" ||
+          url.hostname === "127.0.0.1";
+
+        const isPrivateNetwork =
           /^10\.\d+\.\d+\.\d+$/.test(url.hostname) ||
           /^192\.168\.\d+\.\d+$/.test(url.hostname) ||
-          /^172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+$/.test(url.hostname);
+          /^172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+$/.test(
+            url.hostname
+          );
 
-        if (isAllowedHost && ["5173", "5174"].includes(url.port)) {
+        const isDevelopmentPort =
+          ["5173", "5174"].includes(url.port);
+
+        // Allow local laptop/mobile development.
+        if (
+          (isLocalHost || isPrivateNetwork) &&
+          isDevelopmentPort
+        ) {
           return callback(null, true);
         }
       } catch (_) {
-        // Fall through to reject an invalid origin.
+        // Invalid origin. Reject below.
       }
 
       return callback(new Error("Origin not allowed by CORS"));
     },
+
     credentials: true,
   })
 );
+
+/*
+|--------------------------------------------------------------------------
+| Global Middleware
+|--------------------------------------------------------------------------
+*/
 
 app.use(express.json());
 
