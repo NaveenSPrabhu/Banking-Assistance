@@ -94,6 +94,13 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/health", (req, res) => {
+  return res.status(200).json({
+    success: true,
+    status: "ok",
+  });
+});
+
 /*
 |--------------------------------------------------------------------------
 | Routes
